@@ -1,0 +1,28 @@
+/* Dashboard styles. Link from _Layout.cshtml:
+   <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" /> */
+
+:root {
+    --ev-run: #d9480f;     /* run: track orange */
+    --ev-walk: #2f7d4f;    /* walk: trail green */
+    --ev-cycle: #1c6fb8;   /* cycle: road blue */
+}
+
+.dash-stat { border-left: .3rem solid var(--bs-border-color); padding-left: 1rem; }
+.dash-stat .value { font-size: 2rem; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.dash-stat .label { color: var(--bs-secondary-color); font-size: .9rem; }
+.dash-stat.accent-run   { border-left-color: var(--ev-run); }
+.dash-stat.accent-walk  { border-left-color: var(--ev-walk); }
+.dash-stat.accent-cycle { border-left-color: var(--ev-cycle); }
+
+.type-chip { display: inline-block; padding: .1rem .5rem; border-radius: 1rem; font-size: .75rem; font-weight: 600; color: #fff; }
+.type-chip.type-run   { background: var(--ev-run); }
+.type-chip.type-walk  { background: var(--ev-walk); }
+.type-chip.type-cycle { background: var(--ev-cycle); }
+
+.next-event { border-left: .35rem solid var(--bs-primary); }
+.next-event.type-run   { border-left-color: var(--ev-run); }
+.next-event.type-walk  { border-left-color: var(--ev-walk); }
+.next-event.type-cycle { border-left-color: var(--ev-cycle); }
+.next-event .countdown { font-size: 2.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.progress.thin { height: .5rem; }
