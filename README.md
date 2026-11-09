@@ -46,7 +46,7 @@ RaceDayy/
 ## Run Locally (Visual Studio)
 1. Clone the repository:
   
-   git clone :
+   git clone :https://github.com/zwanesinothile565-creator/RaceDayy2.git
   
 2. Open the `.sln` file in Visual Studio.
 3. Add your Blob Storage connection string (see [Configuration](#configuration)).
