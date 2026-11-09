@@ -108,6 +108,14 @@ A GitHub Actions workflow (`.github/workflows/`) restores, builds, and tests the
 - **Image not found:** make sure the name in `docker run` matches the one used in `docker build`.
 - **Blob errors:** check the connection string and that the container exists in your storage account.
 
+Screenshots
+
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/4643ed46-441d-4647-97af-6701707b8a15" />
+<img width="1895" height="1012" alt="image" src="https://github.com/user-attachments/assets/6c12703d-6fe1-4d9f-9fd9-6f4179f210d4" />
+
+
+
+
  Author
 Name* Sinothile Mhlengi Zwane 
 Student number: St10465232
